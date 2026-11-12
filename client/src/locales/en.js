@@ -1,6 +1,13 @@
 export default {
   // Navigation
   nav: {
+    reports: 'Reports',
+    mainNavigation: 'Main navigation',
+    openMenu: 'Open navigation',
+    closeMenu: 'Close navigation',
+    collapseSidebar: 'Collapse sidebar',
+    expandSidebar: 'Expand sidebar',
+    collapse: 'Collapse',
     overview: 'Overview',
     inventory: 'Inventory',
     orders: 'Orders',

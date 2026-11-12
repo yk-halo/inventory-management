@@ -1,0 +1,26 @@
+{
+  "skill_name": "vue-saas-redesign",
+  "evals": [
+    {
+      "id": 1,
+      "name": "inventory-mobile",
+      "prompt": "Our factory inventory dashboard (Vue 3 frontend in client/) looks dated. Redesign it so it feels like a modern SaaS product: put the navigation in a vertical sidebar on the left instead of the top bar, make spacing consistent across all pages, and make sure it still works on phones.",
+      "expected_output": "Top nav replaced by a left sidebar holding all 6 routes with icons; language switcher, profile menu, filter bar and modals preserved and working; design tokens added and used across all views and modals; mobile drawer below ~1024px; build passes.",
+      "files": ["(this repo at HEAD)"]
+    },
+    {
+      "id": 2,
+      "name": "inventory-casual",
+      "prompt": "can u move the nav links at the top into a left sidebar and make the whole app look more polished and professional? kinda stripe dashboard vibes. dont break anything pls",
+      "expected_output": "Same as eval 1, from a terse casual prompt with no mention of mobile or spacing; the skill should still deliver tokens, consistent spacing, every view restyled and a responsive sidebar.",
+      "files": ["(this repo at HEAD)"]
+    },
+    {
+      "id": 3,
+      "name": "taskflow-facelift",
+      "prompt": "This is our little Vue 3 project management app (TaskFlow). Give it a SaaS facelift: vertical sidebar navigation instead of the purple top bar, consistent spacing everywhere, a clean professional look.",
+      "expected_output": "A differently structured app (<script setup>, router/index.js, TopNav.vue component, scoped styles). Sidebar replaces TopNav with all 4 routes; alerts badge, user name and logout keep working; purple brand kept; tokens used across views; Billing modal and Settings form still work; build passes.",
+      "files": ["fixtures/taskflow"]
+    }
+  ]
+}
