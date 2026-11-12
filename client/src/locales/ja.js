@@ -1,6 +1,13 @@
 export default {
   // Navigation
   nav: {
+    reports: 'レポート',
+    mainNavigation: 'メインナビゲーション',
+    openMenu: 'ナビゲーションを開く',
+    closeMenu: 'ナビゲーションを閉じる',
+    collapseSidebar: 'サイドバーを折りたたむ',
+    expandSidebar: 'サイドバーを展開',
+    collapse: '折りたたむ',
     overview: '概要',
     inventory: '在庫',
     orders: '注文',
